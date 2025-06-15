@@ -1,179 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>Mijn Webshop</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; }
+        header { background: #333; color: #fff; padding: 20px; text-align: center; }
+        .container { max-width: 1000px; margin: 30px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px #ddd; }
+        .producten { display: flex; gap: 25px; flex-wrap: wrap; }
+        .product { background: #fafafa; border: 1px solid #eee; padding: 15px; border-radius: 6px; width: 220px; text-align: center; box-shadow: 0 1px 4px #eee; }
+        .product img { width: 100%; height: 120px; object-fit: contain; }
+        .product h3 { margin: 10px 0 5px; }
+        .product button { padding: 8px 15px; background: #28a745; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+        .product button:hover { background: #218838; }
+        footer { background: #222; color: #fff; text-align: center; padding: 8px; margin-top: 30px; }
+    </style>
 </head>
-<body style="background-color:white;">
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="3.html">2</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="index.html">.</a>
-      <a href="3.html">2</a>
-      <a href="#">.</a>
+<body>
+    <header>
+        <h1>Welkom bij Mijn Webshop</h1>
+    </header>
+    <div class="container">
+        <h2>Onze Producten</h2>
+        <div class="producten">
+            <div class="product">
+                <img src="https://via.placeholder.com/200x120?text=Product+1" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Beschrijving van product 1.</p>
+                <p><strong>€19,99</strong></p>
+                <button>In winkelwagen</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x120?text=Product+2" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Beschrijving van product 2.</p>
+                <p><strong>€24,99</strong></p>
+                <button>In winkelwagen</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200x120?text=Product+3" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Beschrijving van product 3.</p>
+                <p><strong>€9,99</strong></p>
+                <button>In winkelwagen</button>
+            </div>
+        </div>
     </div>
-  </div> 
-</div>
+    <footer>
+        &copy; 2025 Mijn Webshop
+        
+<a href="3.html">test plek voor updets </a>
+<br>
+<a href="2.html">beschrijvijng</a>
 
-
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
-</head>
-<body style="background-color:white;">
-
-
-    </button>
-    <div class="dropdown-content">
-      <a href="3.html">test plek</a>
-      <a href="https://niekniek.w3spaces.com/games.html">games</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-</div>
-<h1>dit is de home pagia van mijn website bedankt voor het bezoeken</h1>
-
-
+    </footer>
 </body>
 </html>
