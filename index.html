@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Mijn Webshop</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; }
-        header { background: #333; color: #fff; padding: 20px; text-align: center; }
-        .container { max-width: 1000px; margin: 30px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px #ddd; }
-        .producten { display: flex; gap: 25px; flex-wrap: wrap; }
-        .product { background: #fafafa; border: 1px solid #eee; padding: 15px; border-radius: 6px; width: 220px; text-align: center; box-shadow: 0 1px 4px #eee; }
-        .product img { width: 100%; height: 120px; object-fit: contain; }
-        .product h3 { margin: 10px 0 5px; }
-        .product button { padding: 8px 15px; background: #28a745; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
-        .product button:hover { background: #218838; }
-        footer { background: #222; color: #fff; text-align: center; padding: 8px; margin-top: 30px; }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
 </head>
-<body>
-    <header>
-      <a href="3.html">test plek voor updets </a>
-<br>
-<a href="2.html">beschrijvijng</a>
-        <h1>Welkom bij Mijn Webshop</h1>
-    </header>
-    <div class="container">
-        <h2>Onze Producten</h2>
-        <div class="producten">
-            <div class="product">
-                <img src="https://via.placeholder.com/200x120?text=Product+1" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>Beschrijving van product 1.</p>
-                <p><strong>€19,99</strong></p>
-                <button>In winkelwagen</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/200x120?text=Product+2" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>Beschrijving van product 2.</p>
-                <p><strong>€24,99</strong></p>
-                <button>In winkelwagen</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/200x120?text=Product+3" alt="Product 3">
-                <h3>Product 3</h3>
-                <p>Beschrijving van product 3.</p>
-                <p><strong>€9,99</strong></p>
-                <button>In winkelwagen</button>
-            </div>
-        </div>
-    </div>
-    <footer>
-        &copy; 2025 Mijn Webshop
-        
+<body style="background-color:white;">
 
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
 
-    </footer>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
 </body>
 </html>
